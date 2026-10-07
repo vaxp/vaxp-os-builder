@@ -98,4 +98,3 @@ sudo ./build/vaxp-builder --step 20-deskmon-mod
 # Clean the build workspace
 sudo ./build/vaxp-builder --clean
 ```
-# vaxp-os-builder

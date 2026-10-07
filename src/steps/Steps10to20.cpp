@@ -58,37 +58,33 @@ bool VaxpAppsStep::execute(StepContext& ctx) {
 
     std::vector<std::string> apps = {
         "install", "-y", "--no-install-recommends",
-        "apt-transport-https", "cifs-utils", "cloud-init", "coreutils", "gnupg", "gpg",
-        "gvfs-fuse", "gvfs-backends", "wsdd", "libsass1", "lsb-release",
-        "systemd-timesyncd", "gdb", "sassc", "software-properties-common",
-        "mesa-vulkan-drivers", "squashfs-tools", "sysstat", "wget", "whiptail",
-        "gdisk", "eatmydata", "patch", "less", "gnupg-l10n", "gpg-wks-client",
-        "upower", "mdadm", "appstream", "packagekit-tools", "python3-babel",
-        "exfatprogs", "iw", "xxd", "xdg-utils", "zenity", "power-profiles-daemon",
+        // Base CLI & System Tools
+        "apt-transport-https", "cifs-utils", "coreutils", "gnupg", "gpg",
+        "wsdd", "libsass1", "lsb-release", "systemd-timesyncd", "sassc",
+        "software-properties-common", "mesa-vulkan-drivers", "squashfs-tools",
+        "wget", "whiptail", "gdisk", "patch", "less", "gnupg-l10n", "gpg-wks-client",
+        "upower", "appstream", "python3-babel", "exfatprogs", "iw", "xxd",
+        "xdg-utils", "zenity", "power-profiles-daemon",
+        // Wayland Portals & System Bus
         "xdg-desktop-portal", "xdg-desktop-portal-gtk", "xdg-desktop-portal-wlr",
         "bluez", "bluez-tools", "pulseaudio-utils", "dbus", "libdbus-1-dev",
         "rfkill", "brightnessctl",
-        // Display Server
-        "spice-vdagent", "xserver-xorg-input-all", "xserver-xorg", "xserver-xorg-legacy",
-        "xserver-xorg-video-intel", "xserver-xorg-video-qxl", "xserver-xorg-video-all",
-        "libcanberra-gtk3-0", "libcanberra-gtk3-module", "libcanberra-pulse",
-        "libcanberra0", "libadwaita-1-0",
-        // Plymouth
+        // Wayland Display Stack (Aether Compositor & Xwayland)
+        "spice-vdagent", "xwayland",
+        // Plymouth Boot Splash
         "plymouth", "plymouth-label", "plymouth-theme-spinner", "plymouth-theme-ubuntu-text",
         // Network VPN
-        "openvpn", "network-manager-openvpn", "network-manager-pptp",
-        // Multimedia
-        "gstreamer1.0-alsa", "gstreamer1.0-libav", "gstreamer1.0-gtk3", "gstreamer1.0-x",
-        "gstreamer1.0-gl", "gstreamer1.0-tools", "gstreamer1.0-pipewire",
-        "gstreamer1.0-packagekit", "gstreamer1.0-plugins-base-apps",
+        "openvpn", "network-manager-openvpn",
+        // Multimedia (Clean Core: FFmpeg backend via libav & PipeWire routing)
+        "gstreamer1.0-libav", "gstreamer1.0-gl", "gstreamer1.0-pipewire",
         "pipewire", "pipewire-audio-client-libraries", "wireplumber", "pipewire-pulse",
         "pipewire-alsa", "pipewire-jack", "libgtk-layer-shell0", "slurp", "grim",
         "libmpv2", "libpulse-dev",
         // IBus & Fonts
         "ibus", "ibus-gtk", "ibus-gtk3", "ibus-gtk4", "im-config",
         "fonts-noto-cjk", "fonts-noto-core", "fonts-noto-mono", "fonts-noto-color-emoji",
-        // Python & Xorg
-        "python3", "python3-pip", "python-is-python3", "pipx", "xorg"
+        // Python Stack
+        "python3", "python3-pip", "python-is-python3", "pipx"
     };
 
     auto res = ctx.run_chroot("apt-get", apps);
