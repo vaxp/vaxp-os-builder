@@ -1,0 +1,200 @@
+/* AetherShell Panel Designer — Auto-generated */
+
+#panel-bar {
+    background-color: rgba(0, 0, 0, 0.00);
+}
+
+#menu-pill {
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0 5px;
+    border: 2px solid rgba(238, 201, 235, 0.63);
+}
+
+#center-pill {
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0 4px;
+    border: 2px solid rgba(238, 201, 235, 1.00);
+}
+
+#sys-pill {
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0 4px;
+    border: 2px solid rgba(238, 201, 235, 0.55);
+}
+
+#status-pill {
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0 4px;
+    border: 2px solid rgba(238, 201, 235, 0.54);
+}
+
+#keyboard-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+    border: none;
+}
+
+#sni-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+    border: none;
+}
+
+/* ── Window theme overrides (Panel Designer) ── */
+/* aether-volume — scoped under #volume-mixer-window */
+#volume-mixer-window #mixer-outer { background-color: rgba(40, 49, 74, 0.36); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#volume-mixer-window label { color: rgba(154, 121, 141, 1.00); }
+#volume-mixer-window .muted, #volume-mixer-window .subtitle { color: rgba(154, 121, 141, 1.00); }
+#volume-mixer-window image { color: rgba(154, 121, 141, 1.00); }
+#volume-mixer-window .card { background-color: rgba(40, 49, 74, 0.35); }
+#volume-mixer-window scale trough { background-color: rgba(40, 49, 74, 0.16); }
+#volume-mixer-window switch { background-color: rgba(40, 49, 74, 0.16); }
+#volume-mixer-window scale highlight { background-color: rgba(144, 110, 128, 1.00); }
+#volume-mixer-window switch:checked { background-color: rgba(144, 110, 128, 1.00); }
+#volume-mixer-window .active-cyan { color: rgba(144, 110, 128, 1.00); background-color: rgba(144, 110, 128, 0.15); border-color: rgba(144, 110, 128, 0.30); box-shadow: 0 0 12px rgba(144, 110, 128, 0.15); }
+#volume-mixer-window .active-cyan-text { color: rgba(144, 110, 128, 1.00); }
+
+/* aether-cc — scoped under #control-center-popover */
+#control-center-popover #main-box { background-color: rgba(238, 201, 235, 0.00); border-radius: 14px; border: 1px solid rgba(145, 65, 172, 1.00); min-width: 320px; }
+#control-center-popover label { color: rgba(255, 255, 255, 1.00); }
+#control-center-popover .muted, #control-center-popover .subtitle { color: rgba(136, 136, 136, 1.00); }
+#control-center-popover image { color: rgba(238, 201, 235, 1.00); }
+#control-center-popover .card { background-color: rgba(0, 0, 0, 0.35); }
+#control-center-popover scale trough { background-color: rgba(238, 201, 235, 0.25); }
+#control-center-popover switch { background-color: rgba(238, 201, 235, 0.25); }
+#control-center-popover scale highlight { background-color: rgba(238, 201, 235, 1.00); }
+#control-center-popover switch:checked { background-color: rgba(238, 201, 235, 1.00); }
+#control-center-popover .active-cyan { color: rgba(238, 201, 235, 1.00); background-color: rgba(238, 201, 235, 0.15); border-color: rgba(238, 201, 235, 0.30); box-shadow: 0 0 12px rgba(238, 201, 235, 0.15); }
+#control-center-popover .active-cyan-text { color: rgba(238, 201, 235, 1.00); }
+
+/* aether-mic — scoped under #mic-mixer-window */
+#mic-mixer-window #mic-mixer-outer { background-color: rgba(42, 51, 75, 0.29); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#mic-mixer-window label { color: rgba(154, 121, 141, 1.00); }
+#mic-mixer-window .muted, #mic-mixer-window .subtitle { color: rgba(154, 121, 141, 1.00); }
+#mic-mixer-window image { color: rgba(154, 121, 141, 1.00); }
+#mic-mixer-window .card { background-color: rgba(42, 51, 75, 0.51); }
+#mic-mixer-window scale trough { background-color: rgba(42, 51, 75, 0.37); }
+#mic-mixer-window switch { background-color: rgba(42, 51, 75, 0.37); }
+#mic-mixer-window scale highlight { background-color: rgba(42, 51, 75, 1.00); }
+#mic-mixer-window switch:checked { background-color: rgba(42, 51, 75, 1.00); }
+#mic-mixer-window .active-cyan { color: rgba(42, 51, 75, 1.00); background-color: rgba(42, 51, 75, 0.15); border-color: rgba(42, 51, 75, 0.30); box-shadow: 0 0 12px rgba(42, 51, 75, 0.15); }
+#mic-mixer-window .active-cyan-text { color: rgba(42, 51, 75, 1.00); }
+
+/* aether-clock — scoped under #sidebar */
+#sidebar { background-color: rgba(42, 51, 75, 0.92); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#sidebar label { color: rgba(255, 255, 255, 1.00); }
+#sidebar .muted, #sidebar .subtitle { color: rgba(154, 120, 143, 1.00); }
+#sidebar image { color: rgba(154, 120, 143, 1.00); }
+#sidebar .card { background-color: rgba(41, 49, 74, 0.85); }
+#sidebar scale trough { background-color: rgba(41, 49, 74, 1.00); }
+#sidebar switch { background-color: rgba(41, 49, 74, 1.00); }
+#sidebar scale highlight { background-color: rgba(42, 51, 75, 1.00); }
+#sidebar switch:checked { background-color: rgba(42, 51, 75, 1.00); }
+#sidebar .active-cyan { color: rgba(42, 51, 75, 1.00); background-color: rgba(42, 51, 75, 0.15); border-color: rgba(42, 51, 75, 0.30); box-shadow: 0 0 12px rgba(42, 51, 75, 0.15); }
+#sidebar .active-cyan-text { color: rgba(42, 51, 75, 1.00); }
+
+/* aether-battery — scoped under #battery-indicator-window */
+#battery-indicator-window #battery-popup-outer { background-color: rgba(40, 49, 74, 0.28); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#battery-indicator-window label { color: rgba(144, 110, 128, 1.00); }
+#battery-indicator-window .muted, #battery-indicator-window .subtitle { color: rgba(136, 136, 136, 1.00); }
+#battery-indicator-window image { color: rgba(144, 110, 128, 1.00); }
+#battery-indicator-window .card { background-color: rgba(40, 49, 74, 0.36); }
+#battery-indicator-window scale trough { background-color: rgba(40, 49, 74, 0.38); }
+#battery-indicator-window switch { background-color: rgba(40, 49, 74, 0.38); }
+#battery-indicator-window scale highlight { background-color: rgba(144, 110, 128, 1.00); }
+#battery-indicator-window switch:checked { background-color: rgba(144, 110, 128, 1.00); }
+#battery-indicator-window .active-cyan { color: rgba(144, 110, 128, 1.00); background-color: rgba(144, 110, 128, 0.15); border-color: rgba(144, 110, 128, 0.30); box-shadow: 0 0 12px rgba(144, 110, 128, 0.15); }
+#battery-indicator-window .active-cyan-text { color: rgba(144, 110, 128, 1.00); }
+
+/* aether-bt — scoped under #bt-indicator-window */
+#bt-indicator-window #wifi-popup-outer { background-color: rgba(42, 51, 75, 0.26); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#bt-indicator-window label { color: rgba(154, 121, 141, 1.00); }
+#bt-indicator-window .muted, #bt-indicator-window .subtitle { color: rgba(154, 121, 141, 1.00); }
+#bt-indicator-window image { color: rgba(154, 121, 141, 1.00); }
+#bt-indicator-window .card { background-color: rgba(42, 51, 75, 0.85); }
+#bt-indicator-window scale trough { background-color: rgba(42, 51, 75, 1.00); }
+#bt-indicator-window switch { background-color: rgba(42, 51, 75, 1.00); }
+#bt-indicator-window scale highlight { background-color: rgba(42, 51, 75, 1.00); }
+#bt-indicator-window switch:checked { background-color: rgba(42, 51, 75, 1.00); }
+#bt-indicator-window .active-cyan { color: rgba(42, 51, 75, 1.00); background-color: rgba(42, 51, 75, 0.15); border-color: rgba(42, 51, 75, 0.30); box-shadow: 0 0 12px rgba(42, 51, 75, 0.15); }
+#bt-indicator-window .active-cyan-text { color: rgba(42, 51, 75, 1.00); }
+
+/* aether-notifs — scoped under #notifications-popover */
+#notifications-popover #main-box { background-color: rgba(12, 12, 14, 0.92); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#notifications-popover label { color: rgba(204, 204, 204, 1.00); }
+#notifications-popover .muted, #notifications-popover .subtitle { color: rgba(136, 136, 136, 1.00); }
+#notifications-popover image { color: rgba(144, 110, 128, 1.00); }
+#notifications-popover .card { background-color: rgba(40, 49, 74, 0.30); }
+#notifications-popover scale trough { background-color: rgba(0, 0, 0, 1.00); }
+#notifications-popover switch { background-color: rgba(0, 0, 0, 1.00); }
+#notifications-popover scale highlight { background-color: rgba(144, 110, 128, 1.00); }
+#notifications-popover switch:checked { background-color: rgba(144, 110, 128, 1.00); }
+#notifications-popover .active-cyan { color: rgba(144, 110, 128, 1.00); background-color: rgba(144, 110, 128, 0.15); border-color: rgba(144, 110, 128, 0.30); box-shadow: 0 0 12px rgba(144, 110, 128, 0.15); }
+#notifications-popover .active-cyan-text { color: rgba(144, 110, 128, 1.00); }
+
+/* Notifications indicator badge — Cairo named colours */
+@define-color notif_badge_bg rgba(40, 49, 74, 1.00);
+@define-color notif_badge_fg rgba(144, 110, 128, 1.00);
+@define-color notif_bell_color rgba(255, 255, 255, 0.69);
+@define-color notif_dot_color rgba(89, 89, 89, 0.6);
+
+/* aether-appmenu — scoped under #app-menu-popover */
+#app-menu-popover #app-menu-box { background-color: rgba(42, 51, 75, 0.92); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#app-menu-popover label { color: rgba(237, 240, 249, 1.00); }
+#app-menu-popover .muted, #app-menu-popover .subtitle { color: rgba(237, 240, 249, 1.00); }
+#app-menu-popover image { color: rgba(237, 240, 249, 1.00); }
+#app-menu-popover .card { background-color: rgba(42, 51, 75, 0.85); }
+#app-menu-popover scale trough { background-color: rgba(42, 51, 75, 1.00); }
+#app-menu-popover switch { background-color: rgba(42, 51, 75, 1.00); }
+#app-menu-popover scale highlight { background-color: rgba(42, 51, 75, 1.00); }
+#app-menu-popover switch:checked { background-color: rgba(42, 51, 75, 1.00); }
+#app-menu-popover .active-cyan { color: rgba(42, 51, 75, 1.00); background-color: rgba(42, 51, 75, 0.15); border-color: rgba(42, 51, 75, 0.30); box-shadow: 0 0 12px rgba(42, 51, 75, 0.15); }
+#app-menu-popover .active-cyan-text { color: rgba(42, 51, 75, 1.00); }
+
+/* aether-wifi — scoped under #wifi-indicator-window */
+#wifi-indicator-window #wifi-popup-outer { background-color: rgba(42, 51, 75, 0.29); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#wifi-indicator-window label { color: rgba(149, 127, 148, 1.00); }
+#wifi-indicator-window .muted, #wifi-indicator-window .subtitle { color: rgba(149, 127, 148, 1.00); }
+#wifi-indicator-window image { color: rgba(149, 127, 148, 1.00); }
+#wifi-indicator-window .card { background-color: rgba(42, 51, 75, 0.85); }
+#wifi-indicator-window scale trough { background-color: rgba(42, 51, 75, 1.00); }
+#wifi-indicator-window switch { background-color: rgba(42, 51, 75, 1.00); }
+#wifi-indicator-window scale highlight { background-color: rgba(42, 51, 75, 1.00); }
+#wifi-indicator-window switch:checked { background-color: rgba(42, 51, 75, 1.00); }
+#wifi-indicator-window .active-cyan { color: rgba(42, 51, 75, 1.00); background-color: rgba(42, 51, 75, 0.15); border-color: rgba(42, 51, 75, 0.30); box-shadow: 0 0 12px rgba(42, 51, 75, 0.15); }
+#wifi-indicator-window .active-cyan-text { color: rgba(42, 51, 75, 1.00); }
+
+/* Workspaces — pure CSS styling (targets classes globally) */
+.workspace-container { background-color: rgba(176, 161, 255, 0.39); border-radius: 21px; }
+.workspace-dot { background-color: #b0a1ff; min-width: 10px; min-height: 10px; border-radius: 40px; margin: 0 2px; }
+.workspace-dot-active { background-color: #eec9eb; min-width: 47px; border-radius: 40px; }

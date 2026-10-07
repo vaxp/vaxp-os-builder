@@ -1,0 +1,27 @@
+{
+  "_comment": "NyroShell — auto-generated default layout.",
+  "panel": {
+    "height"  : 36,
+    "position": "top",
+    "spacing" : 8,
+    "margin"  : { "top": 4, "bottom": 0, "left": 8, "right": 8 }
+  },
+  "layout": {
+    "left": [
+      { "type": "pill", "id": "left-pill", "spacing": 2,
+        "plugins": ["aether-appmenu", "aether-clipboard", "aether-workspaces"] }
+    ],
+    "center": [
+      { "type": "pill", "id": "center-pill", "spacing": 0,
+        "plugins": ["aether-clock"] }
+    ],
+    "right": [
+      { "type": "pill", "id": "sni-pill", "spacing": 2,
+        "plugins": ["aether-sni-tray"] },
+      { "type": "pill", "id": "status-pill", "spacing": 2,
+        "plugins": ["aether-keyboard", "aether-bt", "aether-wifi", "aether-mic", "aether-volume"] },
+      { "type": "pill", "id": "sys-pill", "spacing": 2,
+        "plugins": ["aether-battery", "aether-search", "aether-notifs", "aether-cc"] }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "_comment": "AetherShell Panel Layout — edit to customise your panel.",
+  "panel": {
+    "height": 36,
+    "spacing": 0,
+    "margin": {
+      "top": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "layout": {
+    "left": [
+      {
+        "type": "pill",
+        "id": "menu-pill",
+        "spacing": 0,
+        "border_color": "rgba(238, 201, 235, 0.63)",
+        "border_width": 2,
+        "plugins": [
+          "aether-appmenu",
+          "aether-clipboard",
+          "aether-workspaces"
+        ],
+        "border_radius": 16
+      }
+    ],
+    "center": [
+      {
+        "type": "pill",
+        "id": "center-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-clock"
+        ],
+        "border_radius": 14,
+        "border_color": "#eec9eb",
+        "border_width": 2
+      }
+    ],
+    "right": [
+      {
+        "type": "pill",
+        "id": "sys-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-battery",
+          "aether-search",
+          "aether-notifs",
+          "aether-cc"
+        ],
+        "border_radius": 14,
+        "border_color": "rgba(238, 201, 235, 0.55)",
+        "border_width": 2
+      },
+      {
+        "type": "pill",
+        "id": "status-pill",
+        "spacing": 0,
+        "border_color": "rgba(238, 201, 235, 0.54)",
+        "border_width": 2,
+        "plugins": [
+          "aether-wifi",
+          "aether-bt",
+          "aether-mic",
+          "aether-volume"
+        ],
+        "border_radius": 14
+      },
+      {
+        "type": "pill",
+        "id": "keyboard-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-keyboard"
+        ],
+        "border_radius": 14
+      },
+      {
+        "type": "pill",
+        "id": "sni-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-sni-tray"
+        ],
+        "border_radius": 14
+      }
+    ]
+  }
+}

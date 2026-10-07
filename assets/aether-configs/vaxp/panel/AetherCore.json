@@ -1,0 +1,94 @@
+{
+  "_comment": "AetherShell AetherCore Layout — Shell Space Topology (9-zone grid).",
+  "AetherCore": {
+    "spacing": 0,
+    "margin": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "layout": {
+    "top-left": [
+      {
+        "type": "pill",
+        "id": "menu-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-appmenu",
+          "aether-clipboard"
+        ],
+        "height": 38
+      },
+      {
+        "type": "pill",
+        "id": "workspaces-pill",
+        "spacing": 14,
+        "plugins": [
+          "aether-workspaces"
+        ],
+        "width": 316,
+        "height": 40
+      }
+    ],
+    "top-center": [
+      {
+        "type": "pill",
+        "id": "center-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-clock"
+        ]
+      }
+    ],
+    "top-right": [
+      {
+        "type": "pill",
+        "id": "sys-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-battery",
+          "aether-search",
+          "aether-notifs",
+          "aether-cc"
+        ],
+        "height": 39
+      },
+      {
+        "type": "pill",
+        "id": "status-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-wifi",
+          "aether-bt",
+          "aether-mic",
+          "aether-volume"
+        ]
+      },
+      {
+        "type": "pill",
+        "id": "keyboard-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-keyboard"
+        ]
+      },
+      {
+        "type": "pill",
+        "id": "sni-pill",
+        "spacing": 0,
+        "plugins": [
+          "aether-sni-tray"
+        ],
+        "height": 0
+      }
+    ],
+    "left": [],
+    "center": [],
+    "right": [],
+    "bottom-left": [],
+    "bottom-center": [],
+    "bottom-right": []
+  }
+}

@@ -1,0 +1,42 @@
+[General]
+Theme=Terminal
+
+[Theme.Minimal]
+BackgroundColor=rgba(0, 0, 0, 0.3)
+TextColor=rgba(255, 255, 255, 1.0)
+InputBackground=rgba(0, 0, 0, 0.3)
+InputTextColor=rgba(255, 255, 255, 1.0)
+InputFocusBorder=rgba(21, 23, 28, 1.0)
+PrimaryButton=rgba(0, 0, 0, 0.3)
+PrimaryButtonHover=rgba(0, 0, 0, 1.0)
+SecondaryButton=rgba(241, 242, 245, 1.0)
+SecondaryButtonHover=rgba(232, 234, 239, 1.0)
+AvatarRing=rgba(21, 23, 28, 1.0)
+
+[Theme.Polkit]
+BackgroundColor=rgba(0, 0, 0, 0.3)
+BorderColor=rgba(0, 0, 0, 0.4)
+TextColor=rgba(255, 255, 255, 1.0)
+AccentColor=rgba(21, 23, 28, 1.0)
+AccentColorHover=rgba(0, 0, 0, 1.0)
+UserRowBackground=rgba(0, 0, 0, 0.3)
+InputBackground=rgba(0, 0, 0, 0.3)
+InputTextColor=rgba(255, 255, 255, 1.0)
+ButtonBackground=rgba(0, 0, 0, 0.4)
+ButtonHover=rgba(0, 0, 0, 0.56)
+
+[Theme.Terminal]
+BackgroundColor=rgba(0, 0, 0, 0.3)
+BorderColor=rgba(0, 0, 0, 0.4)
+TitleBarColor=rgba(0, 0, 0, 0)
+TextColor=rgba(0, 0, 0, 0.4)
+PromptColor=rgba(88, 224, 140, 1.0)
+InputBackground=rgba(0, 0, 0, 0.4)
+InputTextColor=rgba(255, 255, 255, 0.91)
+HintColor=rgba(90, 96, 110, 1.0)
+WarningColor=rgba(255, 180, 84, 1.0)
+CommandColor=rgba(232, 233, 236, 1.0)
+PathColor=rgba(255, 255, 255, 0.91)
+DotRed=rgba(255, 95, 87, 1.0)
+DotYellow=rgba(255, 189, 46, 1.0)
+DotGreen=rgba(40, 200, 64, 1.0)

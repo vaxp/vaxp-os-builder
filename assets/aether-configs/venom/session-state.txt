@@ -1,0 +1,6 @@
+# Venom Session State
+Timestamp=Tue Jun 30 12:21:10 2026
+Environment=poisonblade
+CurrentDesktop=0
+WindowCount=0
+

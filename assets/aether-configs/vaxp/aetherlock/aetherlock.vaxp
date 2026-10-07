@@ -1,0 +1,17 @@
+[Weather]
+Location=Karbala
+
+[Colors]
+PanelBackground=#00000030
+PanelBorder=#00000041
+PanelBorderWidth=3.0
+OuterBorder=#0000006f
+OuterBorderWidth=3.0
+TextBright=#e6f5f0ff
+TextDim=#9fb3b0ff
+Accent=#7ee0c9ff
+AccentDim=#7ee0c926
+Background=#0000005c
+
+[Notifications]
+HideContent=false

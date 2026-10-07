@@ -1,0 +1,50 @@
+{
+    "target_name": "vaxp-os",
+    "business_name": "VAXP-OS",
+    "version": "0.1.0",
+    "ubuntu_codename": "noble",
+    "architecture": "amd64",
+    "build_mirror": "http://archive.ubuntu.com/ubuntu/",
+    "live_mirror": "http://archive.ubuntu.com/ubuntu/",
+    "lang_mode": "en_US",
+    "lang_pack_code": "en",
+    "timezone": "America/Los_Angeles",
+    "store_provider": "web",
+    "rootfs_dir": "src/new_building_os",
+    "image_dir": "src/image",
+    "dist_dir": "src/dist",
+    "mods_dir": "src/mods",
+    "packages_to_remove": [
+        "ubiquity",
+        "casper",
+        "discover",
+        "laptop-detect",
+        "os-prober"
+    ],
+    "default_apps": [
+        "ffmpegthumbnailer",
+        "libgdk-pixbuf2.0-bin",
+        "usb-creator-gtk",
+        "policykit-desktop-privileges"
+    ],
+    "default_cli_tools": [
+        "curl",
+        "vim",
+        "nano",
+        "git",
+        "build-essential",
+        "make",
+        "gcc",
+        "g++",
+        "dpkg-dev",
+        "net-tools",
+        "htop",
+        "httping",
+        "iputils-ping",
+        "iputils-tracepath",
+        "dnsutils",
+        "smartmontools",
+        "traceroute",
+        "whois"
+    ]
+}

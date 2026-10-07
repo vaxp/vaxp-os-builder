@@ -1,0 +1,34 @@
+[Notify]
+bg_color=rgba(0,0,0,0.39)
+border_color=rgba(84,254,240,0.39)
+title_text_color=#00FFFF
+body_text_color=#EEEEEE
+btn_bg_color=#222222
+btn_text_color=#00FFFF
+btn_hover_bg_color=#00FFFF
+btn_hover_text_color=#000000
+margin_x=20
+margin_y=50
+spacing=10
+# Valid positions: top-right, top-left, bottom-right, bottom-left, top-center, bottom-center
+position=top-right
+
+[OSD]
+bg_color=rgba(0,0,0,0.298)
+text_color=#00FFFF
+bar_bg_color=#4C4C4C
+bar_fg_color=#00FFFF
+icon_normal_color=#FFFFFF
+icon_muted_color=#FF3333
+# Valid positions: center, top, bottom
+position=center
+
+[Sounds]
+notification=
+charger_connect=
+charger_disconnect=
+usb_connect=
+usb_disconnect=
+limit_high=
+limit_low=
+error=

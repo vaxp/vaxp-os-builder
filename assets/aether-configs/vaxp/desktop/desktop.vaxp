@@ -1,0 +1,13 @@
+[Widgets]
+Disabled=audio_analyzer_widget.so;analyzer_2_liquid.so;
+
+[Desktop]
+Mode=widgets
+Wallpaper=/usr/share/backgrounds/10_edited.png
+WallpaperDirs=/home/x/Pictures/vaxp-will;/home/x/Videos/vaxp-will;/home/x/Pictures;
+WallpaperAnim=1
+AudioEffect=4
+
+[WidgetsTheme]
+Color=#000000
+Opacity=0.3137254901960784

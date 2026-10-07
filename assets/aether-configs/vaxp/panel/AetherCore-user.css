@@ -1,0 +1,82 @@
+/* AetherShell AetherCore Designer — Auto-generated */
+
+#AetherCore-bar {
+    background-color: rgba(0, 0, 0, 0.00);
+}
+
+#workspaces-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 22px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0 16px;
+    border: none;
+    min-width: 316px;
+    max-width: 316px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+#menu-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+    border: none;
+    min-height: 38px;
+    max-height: 38px;
+}
+
+#sni-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+    border: none;
+}
+
+#keyboard-pill {
+    background-color: rgba(0, 0, 0, 0.00);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 0px;
+    border: none;
+}
+
+#sys-pill {
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0 4px;
+    border: none;
+    min-height: 39px;
+    max-height: 39px;
+}
+
+/* ── Window theme overrides (AetherCore Designer) ── */
+/* aether-volume — scoped under #volume-mixer-window */
+#volume-mixer-window #mixer-outer { background-color: rgba(12, 12, 14, 0.92); border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.10); min-width: 320px; }
+#volume-mixer-window label { color: rgba(204, 204, 204, 1.00); }
+#volume-mixer-window .muted, #volume-mixer-window .subtitle { color: rgba(136, 136, 136, 1.00); }
+#volume-mixer-window image { color: rgba(136, 136, 136, 1.00); }
+#volume-mixer-window .card { background-color: rgba(24, 24, 32, 0.85); }
+#volume-mixer-window scale trough { background-color: rgba(42, 42, 48, 1.00); }
+#volume-mixer-window switch { background-color: rgba(42, 42, 48, 1.00); }
+#volume-mixer-window scale highlight { background-color: rgba(0, 229, 255, 1.00); }
+#volume-mixer-window switch:checked { background-color: rgba(0, 229, 255, 1.00); }
+#volume-mixer-window .active-cyan { color: rgba(0, 229, 255, 1.00); background-color: rgba(0, 229, 255, 0.15); border-color: rgba(0, 229, 255, 0.30); box-shadow: 0 0 12px rgba(0, 229, 255, 0.15); }
+#volume-mixer-window .active-cyan-text { color: rgba(0, 229, 255, 1.00); }

@@ -1,0 +1,7 @@
+[Dock]
+Position=bottom
+BackgroundColor=rgba(0, 0, 0, 0.302)
+ContextMenuColor=rgba(8, 10, 14, 0.780)
+IndicatorColor=#602e60
+LaunchRingColor=#c567ff
+LaunchAnimation=4
